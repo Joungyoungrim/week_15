@@ -1,0 +1,99 @@
+html * {
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+.main-container{
+    overflow: hidden;
+    padding 0 0 40px 0;
+    width:1280px;
+    margin: 0 50px;
+}
+
+.sidebar{
+    float:left;
+    margin:0 0 0 20px;
+    padding: 30px 0 30px 0;
+    width: 200px;
+}
+.section-title{
+    font-family: a옛날목욕탕M;
+    font-size: 30px;
+    color:#dd7b00
+}
+
+.sidebar ul{
+    margin: 40px 20px;
+    padding:0;
+}
+.sidebar li{    
+    text-align: left;
+    padding: 20px 10px;
+    border-bottom: 1px solid #ffffff;
+    list-style: none;
+    width:70%;
+
+}
+
+.sidebar li:last-child{
+    border-bottom: 0px solid;
+}
+
+.sidebar li a{
+    font-family: a옛날목욕탕M;
+    font-size: 13pt;
+    display: block;
+    padding:10px 20px;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.sidebar li a:hover{
+    color:#dd7b00
+}
+.sidebar li .current{
+    color:#dd7b00
+}
+
+.maincol{
+    float:right;
+    margin: 0 20px 0 0;
+    padding: 30px 0 30px 0;
+    width:1000px;
+}
+
+h1{
+   font-family: a옛날목욕탕l;
+    color: #5e7658;
+    font-size: 15pt;
+}
+
+
+
+.effect:hover{
+    animation-name: key_hover;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    z-index: 10;
+}
+
+
+
+@keyframes key_hover{
+    0%{
+        transform: perspective(300px) translateZ(00px);
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        transform: perspective(600px) translateZ(60px);
+        opacity: 1;
+    }
+    
+}

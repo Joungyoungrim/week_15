@@ -1,0 +1,259 @@
+html*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "맑은고딕", "고딕", "굴림";
+      background-color:#cedfcf;
+}
+
+@font-face{
+    font-family:a옛날목욕탕L;
+    src:url(a옛날목욕탕L.ttf);
+    font-weight:normal;
+}
+
+
+@font-face{
+    font-family:a옛날목욕탕M;
+    src:url(Sa옛날목욕탕M.ttf);
+    font-weight:thin;
+}
+
+@font-face{
+    font-family:a옛날목욕탕B;
+    src:url(a옛날목욕탕B.ttf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:Florsn25;
+    src:url(Florsn17.ttf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:Spoqa Han Sans JP Thin;
+    src:url(Spoqa Han Sans JP Thin.ttf);
+    font-weight:thin;
+}
+
+@font-face{
+    font-family:SCDream1;
+    src:url(SCDream1.otf);
+    font-weight:thin;
+}
+
+@font-face{
+    font-family:SCDream2;
+    src:url(SCDream2.otf);
+    font-weight:thin;
+}
+
+@font-face{
+    font-family:SCDream3;
+    src:url(SCDream3.otf);
+    font-weight:thin;
+}
+
+@font-face{
+    font-family:SCDream4;
+    src:url(SCDream4.otf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:SCDream5;
+    src:url(SCDream5.otf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:SCDream6;
+    src:url(SCDream6.otf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:SCDream7;
+    src:url(SCDream7.otf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:SCDream8;
+    src:url(SCDream8.otf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:SCDream9;
+    src:url(SCDream9.otf);
+    font-weight:bold;
+}
+header{
+    display: block;
+    width:100%;
+    height: 800px;
+    background-image: url(../picture/main/first.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+    margin: auto;
+    padding: 0;
+    background-color:#cedfcf;
+}
+
+#icon{
+    height:130px;
+    margin: 20px 1px 2px 50px;
+    float: left;
+
+}
+
+.list{
+    list-style: none;
+    font-family:Florsn25;
+    padding: 20px 30px 30px;
+    border-bottom: 1px solid #dd7b00;;
+    width: 500px;
+}
+
+header nav{
+    width: 50%;
+    float:right;
+}
+
+nav ul li{
+    display: inline;
+    margin: 40px;
+}
+
+a:link{
+    color: #fefefe;
+    text-decoration: none;
+}
+a:visited{
+       color: #fefefe;
+    text-decoration: none;
+}
+a:hover{
+    color:#dd7b00;
+}
+
+
+#ask{
+    width: 400px;
+    font-family:a옛날목욕탕L;
+    color: #ffffff;
+    font-size:15pt;
+    padding: 30px 10px;
+    border-bottom: solid 
+}
+
+table{
+    width: 1040px;
+    padding: 10px auto 20 auto;
+    margin: auto;
+    color: #484848;
+    
+}
+
+tr{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+td{
+    padding: 20px;
+}
+
+h1{
+    font-family:SCDream9;
+    padding: 10px;
+    color: #5e7658;
+    
+}
+.main0{
+    margin: 5px 5px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.call{
+    font-family:SCDream5;
+    padding: 10px;
+    line-height: 1.8em;
+    font-size: 20px;
+    color:  #ffffff;
+}
+
+.main1{
+    padding: 10px 30px;
+    border-radius: 10%;
+    transform: perspective(500px) rotateY(30deg);
+    opacity: 0.7;
+    transition: transform 5s cubic-bezier(.09,.72,.54,.95);
+}
+
+.main1:hover{
+    transform: perspective(500px) rotateY(0deg);
+    opacity: 1.0;
+        transition: all 5s cubic-bezier(.09,.72,.54,.95);
+}
+h2{
+    font-family:SCDream9;
+    padding: 10px;
+    line-height: 1.8em;
+    font-size: 13pt;
+    color: #7f857e;
+}
+
+h3{
+    font-family:SCDream9;
+    padding: 10px;
+    margin: 90px auto 60px auto;
+    font-size: 25pt;
+  color: #5e7658;
+}
+
+.main2{
+    margin: 100px 40px;
+    filter:drop-shadow(0 10px 10px #5e7658)
+}
+
+.main2{
+    animation-name: key;
+    animation-direction: normal;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 1;
+    
+}
+
+@keyframes key{
+    0%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 1.0;
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
+
+footer{
+    font-family:SCDream9;
+    padding: 10px 10px;
+    height: 50px;
+    color:#95aa90;
+    background-color:#5e7658;
+}
+
